@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Source Sans Pro");
+@import url("https://fonts.googleapis.com/css?family=Source Code Pro");
+
+
+
+@keyframes moveInLeft {
+    0% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    80% {
+        transform: translateX(-10px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveTop {
+    0% {
+        opacity: 0;
+        transform: rotate(180deg);
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes imgVisibility {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
+}
+
+
+.intro--main {
+    background-image: linear-gradient(to right bottom, #c8dbc4e7,#a0ddc99d), url("../img/nature.jpg");
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .myPic {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-90%) translateY(-80%);
+    object-fit: cover;
+    opacity: 0.8;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.5), 0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    z-index: 1;
+    animation: imgVisibility 1.5s ease-out 2s;
+    animation-fill-mode: backwards;
+  }
+
+  .section__title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(15%) translateY(-180%);
+  }
+
+  .moveLeft--animation {
+     display: block;
+     animation: moveInLeft 1s ease-out;
+  }
+
+  h1 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 55px;
+  }
+
+  .section__subtitle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-44%) translateY(-90%);
+      font-family: "Source Code Pro", monospace;
+      font-size: 50px;
+      background-color: #16e0bd;
+      width: 700px;
+      text-align: right;
+      opacity: 0.6;
+      z-index: 0;
+      animation: moveTop 1s ease-out 1s;
+      animation-fill-mode: backwards;
+  }
