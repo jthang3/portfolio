@@ -6,11 +6,11 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
 }
 
-@media only screen and (max-width: 1622px) {
+/* @media only screen and (max-width: 1622px) {
     .main--aboutme {
         clip-path:none;
     }
-  }
+  } */
 
 .about--me__title {
     font-family: 'Rajdhani', sans-serif;
@@ -46,6 +46,13 @@
     margin: auto;
     line-height: 60px;
 }
+
+@media only screen and (max-width: 1155px) {
+    .about--me__body {
+        font-size: 18px;
+        line-height: 40px;
+    }
+  }
 
 .about--me__body span {
     text-transform: uppercase;

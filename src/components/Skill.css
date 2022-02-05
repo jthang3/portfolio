@@ -9,11 +9,11 @@
     color: white;
 }
 
-@media only screen and (max-width: 1622px) {
+/* @media only screen and (max-width: 1622px) {
     .main--skill {
         clip-path:none;
     }
-  }
+  } */
 
 .main--skill--title {
     text-align: center;
@@ -29,6 +29,14 @@
     line-height: 60px;
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 1155px) {
+    .main--skill--body {
+        font-size: 18px;
+        line-height: 40px;
+    }
+  }
+
 
 .main--skill--body a {
     text-decoration: none;
