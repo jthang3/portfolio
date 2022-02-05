@@ -6,6 +6,12 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
 }
 
+@media only screen and (max-width: 1622px) {
+    .main--aboutme {
+        clip-path:none;
+    }
+  }
+
 .about--me__title {
     font-family: 'Rajdhani', sans-serif;
     font-size: 5vw;
@@ -45,6 +51,7 @@
     text-transform: uppercase;
     text-decoration: underline;
 }
+
 
 @keyframes letterShowCase {
     0%, 10%, 100% {

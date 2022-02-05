@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+.main--skill {
+    margin-top: 20px;
+    background-color: #252839;
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    min-height: 852px;
+    color: white;
+}
+
+@media only screen and (max-width: 1622px) {
+    .main--skill {
+        clip-path:none;
+    }
+  }
+
+.main--skill--title {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #01fe87;
+    padding-top: 20px;
+}
+.main--skill--body {
+    color: white;
+    font-size: 24px;
+    width: 75%;
+    margin: auto;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.main--skill--body a {
+    text-decoration: none;
+    color: #83978e;
+}
+
+.skill--progress {
+    width: 25%;
+    border: 2px solid white;
+    height: 250px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.skill {
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+}
+.css-eglki6-MuiLinearProgress-root {
+    margin: 0px 10px;
+}
