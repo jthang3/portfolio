@@ -4,6 +4,7 @@
     background-color: #252839;
     height: 95vh;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    min-height: 852px;
 }
 
 /* @media only screen and (max-width: 1622px) {
