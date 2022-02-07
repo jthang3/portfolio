@@ -6,6 +6,17 @@
 
 .App {
   margin: 20px;
-  border: 2px solid black;
   min-width: 800px;
+  display: flex;
+  min-height: 724px;
+}
+
+.show--case {
+  border: 2px solid black;
+  margin-left: 5px;
+}
+
+.nav-bar {
+  width: 0px;
+  transition: all .5s ease-in-out;
 }
