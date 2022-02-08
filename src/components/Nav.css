@@ -1,7 +1,7 @@
 .menu-btn {
     position: relative;
     width: 80px;
-    height: 80px;
+    height: 45px;
     padding-top: 20px;
     transition: all .5s ease-in-out;
     transform: translateX(10px);
@@ -58,4 +58,31 @@
 
 .menu-btn.open .menu-btn__burger::after {
     transform: rotate(-45deg) translate(20px, 20px);
+}
+
+.menu--options__close {
+    display: none;
+}
+
+.menu--options__open {
+    display: block;
+    list-style: none;
+    position: relative;
+    padding: 10px;
+    width: 150px;
+    min-width: 150px;
+    font-size: 20px;
+}
+
+.menu--options__open:hover {
+    cursor: pointer;
+}
+
+.menu--options {
+    transition: all 3s ease-in-out;
+    margin-top: 10px
+}
+
+.menu--options__open li:not(:last-child) {
+    margin-bottom: 20px;
 }
