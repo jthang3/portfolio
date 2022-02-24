@@ -1,0 +1,30 @@
+.main--projects {
+    background: #252839;
+    height: 95vh;
+    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%); */
+    min-height: 724px;
+    width: 100%;
+    color: white;
+    opacity: 0.87;
+}
+
+.main--projects__title {
+    text-align: center;
+}
+
+.main--projects-card {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main--container {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.card-height {
+    height: 250px;
+}

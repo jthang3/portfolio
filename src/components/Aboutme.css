@@ -2,8 +2,9 @@
 
 .main--aboutme {
     background-color: #252839;
+    opacity: 0.87;
     height: 95vh;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%); */
     min-height: 724px;
 }
 
@@ -42,7 +43,7 @@
 }
 .about--me__body {
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     width: 75%;
     margin: auto;
     line-height: 60px;

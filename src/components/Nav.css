@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 .menu-btn {
     position: relative;
     width: 80px;
@@ -67,15 +69,10 @@
 .menu--options__open {
     display: block;
     list-style: none;
-    position: relative;
     padding: 10px;
     width: 150px;
     min-width: 150px;
     font-size: 20px;
-}
-
-.menu--options__open:hover {
-    cursor: pointer;
 }
 
 .menu--options {
@@ -85,4 +82,36 @@
 
 .menu--options__open li:not(:last-child) {
     margin-bottom: 20px;
+}
+
+.menu--options__open li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu--options__open li {
+    position: relative;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.menu--options__open li:hover {
+    cursor: pointer;
+}
+
+.menu--options__open li::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    top: 100%;
+    left: 0;
+    transition: all .3s ease-in-out;
+    border-radius: 100px;
+}
+
+
+.menu--options__open li:hover::after {
+    width: 80%;
 }

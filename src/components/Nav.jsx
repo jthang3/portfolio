@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Nav.css";
+import { Link } from "react-router-dom";
 const Nav = () => {
     let [open, setOpen] = useState(false);
 
@@ -28,9 +29,11 @@ const Nav = () => {
             </div>
             <div className="menu--options">
                     <ul className="menu--options__close">
-                        <li>Home</li>
-                        <li>About Me</li>
-                        <li>Skills</li>
+                        <li><Link to = "/home">Home</Link></li>
+                        <li><Link to = "/about">About Me</Link></li>
+                        <li><Link to = "/skills">Skills</Link></li>
+                        <li><Link to = "/projects">Projects</Link></li>
+                        <li><Link to = "/contact">Contact Me</Link></li>
                     </ul>   
                 </div>
         </div>

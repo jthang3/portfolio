@@ -43,10 +43,11 @@
     height: 95vh;
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 80vh, 0% 100%); */
     position: relative;
     margin-bottom: 20px;
     min-height: 724px;
+    width: 100%;
   }
   
   .myPic {

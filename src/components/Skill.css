@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
 
 .main--skill {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: #252839;
     height: 95vh;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0% 100%); */
     min-height: 852px;
     color: white;
-    min-height: 724px;
+    opacity: 0.87;
 }
 
 /* @media only screen and (max-width: 1622px) {
@@ -48,6 +48,7 @@
     width: 25%;
     border: 2px solid white;
     height: 250px;
+    min-height: 250px;
     margin-left: 35px;
     border-radius: 10px;
 }
@@ -60,3 +61,5 @@
 .css-eglki6-MuiLinearProgress-root {
     margin: 0px 10px;
 }
+
+

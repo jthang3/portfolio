@@ -3,7 +3,7 @@ import myPic from "../img/me.jpg";
 const Intro = () => {
     return(
         <div className="intro--main">
-            <img src= {myPic} className = "myPic" />
+            <img src= {myPic} className = "myPic" alt = "me" />
             <h1 className="section__title">
                     Hi, I'm <strong className="moveLeft--animation">John Lyin</strong>
             </h1>
