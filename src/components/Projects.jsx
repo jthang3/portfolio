@@ -3,6 +3,7 @@ import "./Projects.css";
 import reactRedux from "../img/react-redux.png";
 import weather from "../img/weather.png";
 import hulu from "../img/hulu.jpg";
+import sport from "../img/sport.jpg";
 const Projects = () => {
     let blank = "_blank";
     return(
@@ -56,6 +57,24 @@ const Projects = () => {
                                             height = "250"
                                             image = {hulu}
                                             alt = "nature"
+                                        />
+                                    </CardActionArea>
+                                </Card>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div className = "main--container">
+                    <div>
+                        <div className = "thefront">
+                            <a href = "https://lyin-sport.herokuapp.com/" target = {blank}>
+                                <Card sx = {{maxWidth: 250}}>
+                                    <CardActionArea>
+                                        <CardMedia
+                                            component = "img"
+                                            height = "250"
+                                            image = {sport}
+                                            alt = "Sport"
                                         />
                                     </CardActionArea>
                                 </Card>
